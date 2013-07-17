@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://DispatchBot.github.io/atom.xml" rel="self"/>
+  <link href="http://DispatchBot.github.io/"/>
+  <updated>2013-07-16T20:53:17-07:00</updated>
+  <id>http://DispatchBot.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[DispatchBot Scheduler Overview]]></title>
+    <link href="http://DispatchBot.github.io/blog/2013/07/16/dispatchbot-scheduler-overview/"/>
+    <updated>2013-07-16T20:45:00-07:00</updated>
+    <id>http://DispatchBot.github.io/blog/2013/07/16/dispatchbot-scheduler-overview</id>
+    <content type="html"><![CDATA[<p>The scheduler board is where Dispatchers will spend the majority of their time. This view shows the dispatcher an overview of all the scheduled trips, unscheduled trips and driver schedules.</p>
+
+<ol>
+<li><em>Dispatcher Tab</em> This is used by dispatchers when they are marking trips as driver on route, picked up delivered, canceled or no show.</li>
+<li><em>Scheduler Tab</em> Used to see heat map colors on the trip tickets when scheduling trips.</li>
+<li><em>New Trip</em> Click this button to enter a new trip.</li>
+<li><em>Import Trips</em> Use this button to import trips from brokers that you have set up.</li>
+<li><em>Print</em> Use this button to print the every trip that is Scheduled, Driver on Route, Picked Up and Delivered.</li>
+<li>Vehicle name or number.</li>
+<li>Contact information for the driver.</li>
+<li>Name of the first driver for this tour.</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>
