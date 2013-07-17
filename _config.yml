@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://DispatchBot.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://dispatchbot.github.io
+title: DispatchBot Support Center
+subtitle: Videos and tutorials on how to use DispatchBot.
+author: DispatchBot
 simple_search: http://google.com/search
 description:
 
@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: support@dispatchbot.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
