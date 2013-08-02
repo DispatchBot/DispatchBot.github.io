@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://DispatchBot.github.io/sitemap.xml 
+Sitemap: http://dispatchbot.github.io/sitemap.xml 

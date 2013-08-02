@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Scheduler | My Octopress Blog]]></title>
-  <link href="http://DispatchBot.github.io/blog/categories/scheduler/atom.xml" rel="self"/>
-  <link href="http://DispatchBot.github.io/"/>
-  <updated>2013-07-16T20:53:17-07:00</updated>
-  <id>http://DispatchBot.github.io/</id>
+  <title><![CDATA[Category: Scheduler | DispatchBot Support Center]]></title>
+  <link href="http://dispatchbot.github.io/blog/categories/scheduler/atom.xml" rel="self"/>
+  <link href="http://dispatchbot.github.io/"/>
+  <updated>2013-08-01T20:36:16-07:00</updated>
+  <id>http://dispatchbot.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[DispatchBot Support]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,10 +15,14 @@
   
   <entry>
     <title type="html"><![CDATA[DispatchBot Scheduler Overview]]></title>
-    <link href="http://DispatchBot.github.io/blog/2013/07/16/dispatchbot-scheduler-overview/"/>
+    <link href="http://dispatchbot.github.io/blog/2013/07/16/dispatchbot-scheduler-overview/"/>
     <updated>2013-07-16T20:45:00-07:00</updated>
-    <id>http://DispatchBot.github.io/blog/2013/07/16/dispatchbot-scheduler-overview</id>
-    <content type="html"><![CDATA[<p>The scheduler board is where Dispatchers will spend the majority of their time. This view shows the dispatcher an overview of all the scheduled trips, unscheduled trips and driver schedules.</p>
+    <id>http://dispatchbot.github.io/blog/2013/07/16/dispatchbot-scheduler-overview</id>
+    <content type="html"><![CDATA[<h2>Scheduler navigation</h2>
+
+<p>The scheduler board is where Dispatchers will spend the majority of their time. This view shows the dispatcher an overview of all the scheduled trips, unscheduled trips and driver schedules.</p>
+
+<p><img src="images/overview/board_nav.png" title="&lsquo;Scheduler board navigation overview&rsquo;" ></p>
 
 <ol>
 <li><em>Dispatcher Tab</em> This is used by dispatchers when they are marking trips as driver on route, picked up delivered, canceled or no show.</li>
@@ -29,6 +33,69 @@
 <li>Vehicle name or number.</li>
 <li>Contact information for the driver.</li>
 <li>Name of the first driver for this tour.</li>
+</ol>
+
+
+<h2>Scheduler queue</h2>
+
+<p><img src="images/overview/board_queue.png" title="&lsquo;Scheduler board queue&rsquo;" ></p>
+
+<ol>
+<li><em>Current board&rsquo;s date</em>. Select this to view future or past days.</li>
+<li><em>Trip Search</em>. Type in the name of a client, city, or address to search trips for this day.</li>
+<li><em>Drop-down Filter</em>. Use this filter to narrow your search to Any Status, Unscheduled, Scheduled, Driver on Route, Picked Up, Delivered, Canceled or No Showed.</li>
+<li><em>Trip Queue</em>. This will show you any trip for the current day depending on the filter setting for #3. By default it will show Unscheduled trips.Each Leg of a client’s trip will have its own ticket in the trip queue. In the image above we see two tickets in the box labeled #4.</li>
+<li><em>Client name</em>. When you hover over the name with the mouse it will tell you the mobility aids this client uses.</li>
+<li><em>Options menu</em>. Whenever you see this icon you can click it for extra options.</li>
+<li><em>Requested Drop Off or Pick Up Time</em>. This is the time the client requested that they be picked up.</li>
+<li><em>Origin Address and Destination Address</em>. These are the requested pick up and drop off addresses.</li>
+<li><em>Status indicator</em>. This is a quick way to see the status of the ticket. The color will correspond to the status on the schedule board.</li>
+<li>This will tell you how many trips are visible in the queue.</li>
+</ol>
+
+
+<h2>Scheduler board</h2>
+
+<p><img src="images/overview/board_schedule.png" title="&lsquo;The scheduler board&rsquo;" ></p>
+
+<ol>
+<li><em>Scheduled Trip Count</em>. This tells you how many trips are on the board for the day.</li>
+<li><em>Trip Status Toggles</em>. These will break down how many trips are in each status. These will also allow you to show or hide all trips in each status. If the box is checked the trips are shown. If it is not checked the trips are hidden.</li>
+<li><em>Tour</em>. Everything inside this box is a single tour. One vehicle is normally assigned to each tour.</li>
+<li><em>Time axis labels</em>.</li>
+<li><em>Driver Tour</em>. The driver’s tour is placed on the tour for the vehicle. You can have more than one driver tour on a vehicle tour.</li>
+<li>Trip ticked marked as Delivered (Green).</li>
+<li>Trip ticked marked as Picked Up (Yellow).</li>
+<li>Trip ticked marked as Driver on Route (Orange).</li>
+<li>Trip ticked marked as Canceled or No Showed (Grey).</li>
+<li>Trip ticked marked as Scheduled (Red).</li>
+<li><em>Extended Trip Information Box</em>. When you hover the mouse over a trip on the scheduler an extended trip information box will appear.</li>
+</ol>
+
+
+<h2>Trip tooltips</h2>
+
+<p><img src="images/overview/tooltips.png" title="&lsquo;Trip tooltip&rsquo;" ></p>
+
+<ol>
+<li><em>Scheduled Time on Board</em>. This is the time you have this trips scheduled on the schedule board.</li>
+<li><em>Requested Pick Up or Drop Off Time</em>. This is the time the client has requested to be picked up or dropped off.</li>
+<li><em>Account Name</em>. This is the name of the account that the client is assigned to.</li>
+<li><em>Passenger Name</em>.</li>
+<li><em>Mobility Aids</em>. This will show any and all mobility aids this client needs or uses.</li>
+<li><em>Origin Address</em>. Where the passenger is being picked up.</li>
+<li><em>Destination Address</em>. Where the passenger is being dropped off.</li>
+<li><em>View Details</em>. This will open up the details screen for this trip. You would use this screen to get to the parent trip to edit subscriptions.</li>
+<li><em>Edit Trip</em>. Use this if you need to make a change to this ticket only.</li>
+<li><em>View Route</em>. This will open a Google map showing the route from the pickup address to the destination address. This map will also show you the mileage and approximate driving time.</li>
+<li><em>Trip Status Indicator</em>. This is where you will change the ticket from scheduled to driver on route to picked up etc.</li>
+<li><em>Unscheduled</em>. This will take the trip off your schedule board.</li>
+<li><em>Scheduled</em>. This is the default status when you place a trip on the schedule board.</li>
+<li><em>Driver on Route</em>. This will mark the ticket as driver on the way to pick up client.</li>
+<li><em>Picked Up</em> This will mark the ticket as client picked up and on board the vehicle.</li>
+<li><em>Delivered</em>. This will mark the ticket as passenger delivered.</li>
+<li><em>Canceled</em>. This will mark the ticket as canceled.</li>
+<li><em>No Show</em>. This will mark the ticket as a no show.</li>
 </ol>
 
 ]]></content>
