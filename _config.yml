@@ -2,9 +2,9 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://dispatchbot.github.io
+url: http://help.getdispatchbot.com
 title: DispatchBot Support Center
-subtitle: 
+subtitle:
 author: DispatchBot Support
 simple_search: http://google.com/search
 description:
