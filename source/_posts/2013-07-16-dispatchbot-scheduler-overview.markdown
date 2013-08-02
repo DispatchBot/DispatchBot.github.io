@@ -6,11 +6,10 @@ comments: false
 categories: Scheduler
 ---
 
-# The Scheduler Board
-
+## Scheduler navigation
 The scheduler board is where Dispatchers will spend the majority of their time. This view shows the dispatcher an overview of all the scheduled trips, unscheduled trips and driver schedules.
 
-{% img images/overview/board_nav.png 'Scheduler board navigation overview'}
+{% img images/overview/board_nav.png 'Scheduler board navigation overview' %}
 
 1. *Dispatcher Tab* This is used by dispatchers when they are marking trips as driver on route, picked up delivered, canceled or no show.
 2. *Scheduler Tab* Used to see heat map colors on the trip tickets when scheduling trips.
@@ -21,14 +20,14 @@ The scheduler board is where Dispatchers will spend the majority of their time. 
 7. Contact information for the driver.
 8. Name of the first driver for this tour.
 
-{% img images/overview/board_queue.png 'Scheduler board queue'}
-1. Current boards date. Select this to view future or past days.
-2. Trip Search. Type in the name of a client, city, or address to search trips for this day.
-3. Dropdown Filter. Use this filter to narrow your search to Any Status, Unscheduled, Scheduled, Driver on Route, Picked Up, Delivered, Canceled or No Showed.
-4. Trip Queue. This will show you any trip for the current day depending on the filter setting for #3. By default it will show Unscheduled trips.
+## Scheduler queue
 
-Each Leg of a client’s trip will have its own ticket in the trip queue. In the image above we see two tickets in the box labeled #4.
+{% img images/overview/board_queue.png 'Scheduler board queue' %}
 
+1. *Current board's date*. Select this to view future or past days.
+2. *Trip Search*. Type in the name of a client, city, or address to search trips for this day.
+3. *Drop-down Filter*. Use this filter to narrow your search to Any Status, Unscheduled, Scheduled, Driver on Route, Picked Up, Delivered, Canceled or No Showed.
+4. *Trip Queue*. This will show you any trip for the current day depending on the filter setting for #3. By default it will show Unscheduled trips.Each Leg of a client’s trip will have its own ticket in the trip queue. In the image above we see two tickets in the box labeled #4.
 5. *Client name*. When you hover over the name with the mouse it will tell you the mobility aids this client uses.
 6. *Options menu*. Whenever you see this icon you can click it for extra options.
 7. *Requested Drop Off or Pick Up Time*. This is the time the client requested that they be picked up.
@@ -36,7 +35,9 @@ Each Leg of a client’s trip will have its own ticket in the trip queue. In the
 9. *Status indicator*. This is a quick way to see the status of the ticket. The color will correspond to the status on the schedule board.
 10. This will tell you how many trips are visible in the queue.
 
-{% img images/overview/board_schedule.png 'The scheduler board'}
+## Scheduler board
+
+{% img images/overview/board_schedule.png 'The scheduler board' %}
 
 1. *Scheduled Trip Count*. This tells you how many trips are on the board for the day.
 2. *Trip Status Toggles*. These will break down how many trips are in each status. These will also allow you to show or hide all trips in each status. If the box is checked the trips are shown. If it is not checked the trips are hidden.
@@ -50,7 +51,9 @@ Each Leg of a client’s trip will have its own ticket in the trip queue. In the
 10. Trip ticked marked as Scheduled (Red).
 11. *Extended Trip Information Box*. When you hover the mouse over a trip on the scheduler an extended trip information box will appear.
 
-{% img images/overview/tooltips.png 'Trip tooltip'}
+## Trip tooltips
+
+{% img images/overview/tooltips.png 'Trip tooltip' %}
 
 1. *Scheduled Time on Board*. This is the time you have this trips scheduled on the schedule board.
 2. *Requested Pick Up or Drop Off Time*. This is the time the client has requested to be picked up or dropped off.
@@ -70,5 +73,3 @@ Each Leg of a client’s trip will have its own ticket in the trip queue. In the
 16. *Delivered*. This will mark the ticket as passenger delivered.
 17. *Canceled*. This will mark the ticket as canceled.
 18. *No Show*. This will mark the ticket as a no show.
-
-
