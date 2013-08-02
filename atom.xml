@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[DispatchBot Support Center]]></title>
-  <link href="http://dispatchbot.github.io/atom.xml" rel="self"/>
-  <link href="http://dispatchbot.github.io/"/>
-  <updated>2013-08-01T20:36:16-07:00</updated>
-  <id>http://dispatchbot.github.io/</id>
+  <link href="http://help.getdispatchbot.com/atom.xml" rel="self"/>
+  <link href="http://help.getdispatchbot.com/"/>
+  <updated>2013-08-01T20:44:18-07:00</updated>
+  <id>http://help.getdispatchbot.com/</id>
   <author>
     <name><![CDATA[DispatchBot Support]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[DispatchBot Scheduler Overview]]></title>
-    <link href="http://dispatchbot.github.io/blog/2013/07/16/dispatchbot-scheduler-overview/"/>
+    <link href="http://help.getdispatchbot.com/blog/2013/07/16/dispatchbot-scheduler-overview/"/>
     <updated>2013-07-16T20:45:00-07:00</updated>
-    <id>http://dispatchbot.github.io/blog/2013/07/16/dispatchbot-scheduler-overview</id>
+    <id>http://help.getdispatchbot.com/blog/2013/07/16/dispatchbot-scheduler-overview</id>
     <content type="html"><![CDATA[<h2>Scheduler navigation</h2>
 
 <p>The scheduler board is where Dispatchers will spend the majority of their time. This view shows the dispatcher an overview of all the scheduled trips, unscheduled trips and driver schedules.</p>

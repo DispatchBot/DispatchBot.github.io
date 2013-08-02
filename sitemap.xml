@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://dispatchbot.github.io/blog/2013/07/16/dispatchbot-scheduler-overview/</loc>
+        <loc>http://help.getdispatchbot.com/blog/2013/07/16/dispatchbot-scheduler-overview/</loc>
         <lastmod>2013-08-01T20:34:52-07:00</lastmod>
     </url>
     <url>
-        <loc>http://dispatchbot.github.io/blog/archives/</loc>
+        <loc>http://help.getdispatchbot.com/blog/archives/</loc>
         <lastmod>2013-08-01T20:34:52-07:00</lastmod>
     </url>
     <url>
-        <loc>http://dispatchbot.github.io/</loc>
+        <loc>http://help.getdispatchbot.com/</loc>
         <lastmod>2013-08-01T20:34:52-07:00</lastmod>
     </url>
     <url>
-        <loc>http://dispatchbot.github.io/robots.txt</loc>
+        <loc>http://help.getdispatchbot.com/robots.txt</loc>
         <lastmod>2013-07-16T20:55:41-07:00</lastmod>
     </url>
 </urlset>
