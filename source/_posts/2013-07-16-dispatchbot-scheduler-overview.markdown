@@ -9,7 +9,7 @@ categories: Scheduler
 ## Scheduler navigation
 The scheduler board is where Dispatchers will spend the majority of their time. This view shows the dispatcher an overview of all the scheduled trips, unscheduled trips and driver schedules.
 
-{% img images/overview/board_nav.png 'Scheduler board navigation overview' %}
+{% img /images/overview/board_nav.png 'Scheduler board navigation overview' %}
 
 1. *Dispatcher Tab* This is used by dispatchers when they are marking trips as driver on route, picked up delivered, canceled or no show.
 2. *Scheduler Tab* Used to see heat map colors on the trip tickets when scheduling trips.
@@ -22,7 +22,7 @@ The scheduler board is where Dispatchers will spend the majority of their time. 
 
 ## Scheduler queue
 
-{% img images/overview/board_queue.png 'Scheduler board queue' %}
+{% img /images/overview/board_queue.png 'Scheduler board queue' %}
 
 1. *Current board's date*. Select this to view future or past days.
 2. *Trip Search*. Type in the name of a client, city, or address to search trips for this day.
@@ -37,7 +37,7 @@ The scheduler board is where Dispatchers will spend the majority of their time. 
 
 ## Scheduler board
 
-{% img images/overview/board_schedule.png 'The scheduler board' %}
+{% img /images/overview/board_schedule.png 'The scheduler board' %}
 
 1. *Scheduled Trip Count*. This tells you how many trips are on the board for the day.
 2. *Trip Status Toggles*. These will break down how many trips are in each status. These will also allow you to show or hide all trips in each status. If the box is checked the trips are shown. If it is not checked the trips are hidden.
@@ -53,7 +53,7 @@ The scheduler board is where Dispatchers will spend the majority of their time. 
 
 ## Trip tooltips
 
-{% img images/overview/tooltips.png 'Trip tooltip' %}
+{% img /images/overview/tooltips.png 'Trip tooltip' %}
 
 1. *Scheduled Time on Board*. This is the time you have this trips scheduled on the schedule board.
 2. *Requested Pick Up or Drop Off Time*. This is the time the client has requested to be picked up or dropped off.
