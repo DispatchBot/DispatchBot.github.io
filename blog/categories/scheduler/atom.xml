@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Scheduler | DispatchBot Support Center]]></title>
   <link href="http://help.getdispatchbot.com/blog/categories/scheduler/atom.xml" rel="self"/>
   <link href="http://help.getdispatchbot.com/"/>
-  <updated>2013-08-01T20:44:18-07:00</updated>
+  <updated>2013-08-20T21:05:57-07:00</updated>
   <id>http://help.getdispatchbot.com/</id>
   <author>
     <name><![CDATA[DispatchBot Support]]></name>
@@ -22,7 +22,7 @@
 
 <p>The scheduler board is where Dispatchers will spend the majority of their time. This view shows the dispatcher an overview of all the scheduled trips, unscheduled trips and driver schedules.</p>
 
-<p><img src="images/overview/board_nav.png" title="&lsquo;Scheduler board navigation overview&rsquo;" ></p>
+<p><img src="/images/overview/board_nav.png" title="&lsquo;Scheduler board navigation overview&rsquo;" ></p>
 
 <ol>
 <li><em>Dispatcher Tab</em> This is used by dispatchers when they are marking trips as driver on route, picked up delivered, canceled or no show.</li>
@@ -38,7 +38,7 @@
 
 <h2>Scheduler queue</h2>
 
-<p><img src="images/overview/board_queue.png" title="&lsquo;Scheduler board queue&rsquo;" ></p>
+<p><img src="/images/overview/board_queue.png" title="&lsquo;Scheduler board queue&rsquo;" ></p>
 
 <ol>
 <li><em>Current board&rsquo;s date</em>. Select this to view future or past days.</li>
@@ -56,7 +56,7 @@
 
 <h2>Scheduler board</h2>
 
-<p><img src="images/overview/board_schedule.png" title="&lsquo;The scheduler board&rsquo;" ></p>
+<p><img src="/images/overview/board_schedule.png" title="&lsquo;The scheduler board&rsquo;" ></p>
 
 <ol>
 <li><em>Scheduled Trip Count</em>. This tells you how many trips are on the board for the day.</li>
@@ -75,7 +75,7 @@
 
 <h2>Trip tooltips</h2>
 
-<p><img src="images/overview/tooltips.png" title="&lsquo;Trip tooltip&rsquo;" ></p>
+<p><img src="/images/overview/tooltips.png" title="&lsquo;Trip tooltip&rsquo;" ></p>
 
 <ol>
 <li><em>Scheduled Time on Board</em>. This is the time you have this trips scheduled on the schedule board.</li>

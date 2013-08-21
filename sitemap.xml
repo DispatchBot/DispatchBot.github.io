@@ -2,15 +2,27 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://help.getdispatchbot.com/blog/2013/07/16/dispatchbot-scheduler-overview/</loc>
-        <lastmod>2013-08-01T20:34:52-07:00</lastmod>
+        <lastmod>2013-08-20T20:49:01-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://help.getdispatchbot.com/blog/2013/08/20/trip-creation/</loc>
+        <lastmod>2013-08-20T20:48:48-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://help.getdispatchbot.com/blog/2013/08/20/trip-details-page/</loc>
+        <lastmod>2013-08-20T20:54:38-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://help.getdispatchbot.com/blog/2013/08/20/subscription-trip-management/</loc>
+        <lastmod>2013-08-20T21:05:53-07:00</lastmod>
     </url>
     <url>
         <loc>http://help.getdispatchbot.com/blog/archives/</loc>
-        <lastmod>2013-08-01T20:34:52-07:00</lastmod>
+        <lastmod>2013-08-20T21:05:53-07:00</lastmod>
     </url>
     <url>
         <loc>http://help.getdispatchbot.com/</loc>
-        <lastmod>2013-08-01T20:34:52-07:00</lastmod>
+        <lastmod>2013-08-20T21:05:53-07:00</lastmod>
     </url>
     <url>
         <loc>http://help.getdispatchbot.com/robots.txt</loc>
